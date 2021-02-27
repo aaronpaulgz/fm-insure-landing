@@ -88,8 +88,13 @@ body {
 
 .hero {
   color: var(--Very-Light-Gray);
-  background-color: var(--Dark-Violet);
+  /* background-color: var(--Dark-Violet); */
   position: relative;
+}
+
+.ornament_left,
+.ornament_right {
+  display: none;
 }
 
 .hero_img img {
@@ -131,13 +136,13 @@ body {
   outline: none;
 }
 
-.ornament_left {
+.mob_ornament_left {
   position: absolute;
   left: 0;
   top: -4px;
 }
 
-.ornament_right {
+.mob_ornament_right {
   position: absolute;
   bottom: -160px;
   right: 0;
