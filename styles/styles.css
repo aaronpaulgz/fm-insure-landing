@@ -19,6 +19,10 @@ body {
   font-family: var(--Text);
 }
 
+.header {
+  display: none;
+}
+
 .mob_header {
   padding: 24px;
 }
