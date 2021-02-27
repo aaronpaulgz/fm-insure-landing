@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Frontend Mentor | Insure landing page</title>
+  </head>
+  <body>
+    <!-- Mobile Header -->
+    <header class="mob_header">
+      <nav class="mob_nav">
+        <figure class="mob_header_logo">
+          <img src="./images/logo.svg" alt="" />
+        </figure>
+        <div class="mob_tab_container">
+          <img
+            id="close"
+            onclick="hideModal()"
+            class="mob_close"
+            src="./images/icon-close.svg"
+            alt=""
+          />
+          <img
+            id="hamburger"
+            onclick="showModal()"
+            class="mob_hamburger"
+            src="./images/icon-hamburger.svg"
+            alt=""
+          />
+        </div>
+      </nav>
+    </header>
+    <!-- Mobile Header ENDS -->
+    <!-- Modal -->
+    <div class="mob_modal" id="mobModal">
+      <ul class="mob_modal_list">
+        <li class="mob_modal_list_item">HOW WE WORK</li>
+        <li class="mob_modal_list_item">BLOG</li>
+        <li class="mob_modal_list_item">ACCOUNT</li>
+      </ul>
+      <button class="mob_modal_button">VIEW PLANS</button>
+    </div>
+    <!-- Modal ENDS -->
+  </body>
+  <script src="./scripts.js"></script>
+</html>

@@ -1,0 +1,82 @@
+:root {
+  --Dark-Violet: hsl(256, 26%, 20%);
+  --Grayish-Blue: hsl(216, 30%, 68%);
+  --Very-Dark-Violet: hsl(270, 9%, 17%);
+  --Dark-Grayish-Violet: hsl(273, 4%, 51%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --Headings: "DM Serif Display";
+  --Text: "Karla";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Very-Light-Gray);
+  font-family: var(--Text);
+}
+
+.mob_header {
+  padding: 24px;
+}
+
+.mob_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mob_tab_container {
+}
+
+.mob_tab_container .mob_close {
+  display: none;
+  cursor: pointer;
+}
+
+.mob_tab_container .mob_hamburger {
+  cursor: pointer;
+}
+
+.mob_modal {
+  display: none;
+  position: absolute;
+  padding: 40px 24px;
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+  background-color: var(--Very-Dark-Violet);
+  color: var(--Very-Light-Gray);
+  background-image: url(../images/bg-pattern-mobile-nav.svg);
+  background-repeat: no-repeat;
+  background-size: 440px;
+  background-position: bottom right;
+}
+
+.mob_modal .mob_modal_list {
+  list-style: none;
+}
+
+.mob_modal_list .mob_modal_list_item {
+  font-size: 1.2rem;
+  line-height: 3rem;
+  letter-spacing: 4px;
+}
+
+.mob_modal .mob_modal_button {
+  width: 328px;
+  height: 56px;
+  margin: 24px 0 0 0;
+  min-width: 300px;
+  max-width: 356px;
+  background: none;
+  border: solid 2px var(--Very-Light-Gray);
+  font-size: 1rem;
+  letter-spacing: 4px;
+  color: var(--Very-Light-Gray);
+  cursor: pointer;
+  outline: none;
+}
