@@ -48,6 +48,7 @@ body {
 .mob_modal {
   display: none;
   position: absolute;
+  z-index: 9;
   padding: 40px 24px;
   height: 90vh;
   width: 100%;
@@ -83,4 +84,61 @@ body {
   color: var(--Very-Light-Gray);
   cursor: pointer;
   outline: none;
+}
+
+.hero {
+  color: var(--Very-Light-Gray);
+  background-color: var(--Dark-Violet);
+  position: relative;
+}
+
+.hero_img img {
+  width: 100%;
+}
+
+.hero_description {
+  display: flex;
+  flex-direction: column;
+  padding: 94px 24px;
+  position: relative;
+}
+
+.hero_title {
+  max-width: 100%;
+  font-family: var(--Headings);
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.hero_text {
+  margin: 16px auto 0;
+  font-family: var(--Text);
+  font-weight: 400;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  max-width: 85%;
+}
+
+.hero_button {
+  margin: 32px auto 0;
+  height: 40px;
+  width: 146px;
+  color: var(--Very-Light-Gray);
+  border: solid 1.5px var(--Very-Light-Gray);
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.ornament_left {
+  position: absolute;
+  left: 0;
+  top: -4px;
+}
+
+.ornament_right {
+  position: absolute;
+  bottom: -160px;
+  right: 0;
 }
