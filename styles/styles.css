@@ -92,6 +92,10 @@ body {
   position: relative;
 }
 
+.line {
+  display: none;
+}
+
 .ornament_left,
 .ornament_right {
   display: none;

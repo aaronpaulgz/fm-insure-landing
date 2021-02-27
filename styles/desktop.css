@@ -90,12 +90,21 @@
 .hero_description {
   order: 1;
   width: 540px;
-  padding: 94px 0;
+  margin: 105px 0 0 0;
+  padding: 0 0;
+}
+
+.line {
+  display: block;
+  width: 150px;
+  height: 1px;
+  background-color: var(--Very-Light-Gray);
 }
 
 .hero_title {
   text-align: left;
   font-size: 3.4rem;
+  margin: 63px 0 0 0;
 }
 
 .hero_text {
