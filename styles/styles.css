@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: var(--Very-Light-Gray);
+  background-color: white;
   font-family: var(--Text);
 }
 
@@ -31,9 +31,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.mob_tab_container {
 }
 
 .mob_tab_container .mob_close {
