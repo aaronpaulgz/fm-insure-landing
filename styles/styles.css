@@ -141,6 +141,7 @@ body {
   background-color: transparent;
   cursor: pointer;
   outline: none;
+  letter-spacing: 1px;
 }
 
 .mob_ornament_left {
@@ -194,4 +195,41 @@ body {
   margin: 16px 0 0 0;
   color: var(--Dark-Grayish-Violet);
   line-height: 1.6rem;
+}
+
+.cta {
+  padding: 72px 24px;
+  margin: 140px auto 0;
+  width: 327px;
+  min-width: 320px;
+  max-width: 327px;
+  background-color: var(--Dark-Violet);
+  text-align: center;
+  color: var(--Very-Light-Gray);
+  background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 180px;
+}
+
+.cta_title {
+  font-family: var(--Headings);
+  font-size: 3.2rem;
+}
+
+.cta_button {
+  width: 160px;
+  height: 40px;
+  margin: 40px 0 0 0;
+  background-color: transparent;
+  border: solid 1.5px var(--Very-Light-Gray);
+  color: var(--Very-Light-Gray);
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.cta_button:hover {
+  background-color: var(--Very-Light-Gray);
+  color: var(--Very-Dark-Violet);
+  font-weight: 700;
 }

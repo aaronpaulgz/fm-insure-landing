@@ -158,3 +158,26 @@
 .feature_card .feature_card_text {
   font-size: 1rem;
 }
+
+.cta {
+  padding: 72px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1100px;
+  width: 100%;
+  background-image: url(../images/bg-pattern-how-we-work-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 500px;
+}
+
+.cta_title {
+  max-width: 475px;
+  font-size: 3rem;
+  text-align: left;
+  font-weight: 700;
+}
+.cta_button {
+  margin: 0 0 0 0;
+}
