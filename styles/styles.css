@@ -92,7 +92,6 @@ body {
 
 .hero {
   color: var(--Very-Light-Gray);
-  /* background-color: var(--Dark-Violet); */
   position: relative;
 }
 
@@ -154,4 +153,45 @@ body {
   position: absolute;
   bottom: -160px;
   right: 0;
+}
+
+.features {
+  margin: 140px auto 0;
+  width: 327px;
+  max-width: 327px;
+  text-align: center;
+}
+
+.features_line {
+  width: 150px;
+  height: 1px;
+  background-color: var(--Very-Dark-Violet);
+  margin: 0 auto;
+}
+
+.features_title {
+  margin: 40px 0 0 0;
+  font-family: var(--Headings);
+  font-size: 2.6rem;
+}
+
+.features_cards {
+  margin: 80px 0 0 0;
+}
+
+.feature_card {
+  margin: 56px 0 0 0;
+}
+
+.feature_card .feature_card_title {
+  margin: 32px 0 0 0;
+  font-family: var(--Headings);
+  font-size: 1.6rem;
+  color: var(--Very-Dark-Violet);
+}
+
+.feature_card .feature_card_text {
+  margin: 16px 0 0 0;
+  color: var(--Dark-Grayish-Violet);
+  line-height: 1.6rem;
 }
