@@ -86,6 +86,10 @@ body {
   outline: none;
 }
 
+.hero_container {
+  background-color: var(--Dark-Violet);
+}
+
 .hero {
   color: var(--Very-Light-Gray);
   /* background-color: var(--Dark-Violet); */
