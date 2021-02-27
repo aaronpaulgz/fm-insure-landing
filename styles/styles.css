@@ -144,6 +144,12 @@ body {
   letter-spacing: 1px;
 }
 
+.hero_button:hover {
+  background-color: var(--Very-Light-Gray);
+  color: var(--Very-Dark-Violet);
+  font-weight: 700;
+}
+
 .mob_ornament_left {
   position: absolute;
   left: 0;
@@ -226,10 +232,61 @@ body {
   color: var(--Very-Light-Gray);
   letter-spacing: 1px;
   cursor: pointer;
+  outline: none;
 }
 
 .cta_button:hover {
   background-color: var(--Very-Light-Gray);
   color: var(--Very-Dark-Violet);
   font-weight: 700;
+}
+
+.footer_container {
+  margin: 140px 0 0 0;
+  display: flex;
+  color: var(--Very-Dark-Violet);
+  background-color: var(--Very-Light-Gray);
+  background-image: url(../images/bg-pattern-footer-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 400px;
+}
+
+.footer_container .footer {
+  margin: 0 auto 0;
+  width: 327px;
+  text-align: center;
+}
+
+.footer .footer_top {
+  border-bottom: solid 1px var(--Dark-Grayish-Violet);
+  padding: 0 0 36px 0;
+}
+
+.footer_top .footer_top_rrss {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px auto 0;
+  width: 144px;
+}
+
+.footer_down {
+  margin: 40px 0 60px 0;
+}
+
+.footer_list .list_title {
+  margin: 36px 0 36px 0;
+  font-weight: 700;
+  color: var(--Dark-Grayish-Violet);
+}
+
+.footer_list .list {
+  margin: 16px 0 0 0;
+  list-style: none;
+}
+
+.footer_list .list .list_item {
+  margin: 16px 0 0 0;
+  font-weight: 700;
+  color: var(--Dark-Violet);
 }
